@@ -41,7 +41,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 def load_promice(path_promice):
     '''
-    Loading PROMICE data for a given path into a DataFrame.
+    Loading hourly PROMICE data for a given path into a DataFrame.
     + adding time index
     + calculating albedo
     + (optional) calculate RH with regard to water
